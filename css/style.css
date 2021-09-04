@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width:900px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.cards-block{
+    background: #e1e7ed;
+    padding: 40px 0;
+}
+
+.card{
+    max-width: 750px;
+    background: #fff;
+    font-size: 15px;
+    color: #868d9b;
+    padding-bottom: 35px;
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-img img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    
+}
+
+.star{
+    background: url(../images/star.png) 0 0 no-repeat;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.discount{
+    display: inline-block;
+    background: #ff638f;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    position: absolute;
+    right: 30px; 
+    bottom: 25px ;
+}
+.card-info{
+    padding: 30px ;
+    position: relative;
+}
+
+.card-info h4 {
+    font-size: 19px;
+    color: #33363b;
+    font-weight: normal;
+    margin-top: 0;
+    margin-right: 120px;
+}
+
+.card-info p{
+    line-height: 24px;
+}
+
+.price{
+    font-size: 19px;
+    color: #65bd8c;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: inline-block;
+
+}
+
+
+
+.followers{
+    padding-left: 30px;
+    display: flex;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #868d9b;
+    text-align: center;
+    line-height: 30px;
+}
+
+.photos{
+    display: flex;
+}
+
+.images{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: auto 10px auto 0;
+}
+
+.quality{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #bcc4ce;
+    line-height: 30px;
+}
+
+.follower-info {
+    display: flex;
+    width: 100%;
+
+}
+
+.follower-info span {
+    margin: auto  10px auto;
+}
+
+.follower-info a {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #ff638f;
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin:0 20px 0 auto;
+}
